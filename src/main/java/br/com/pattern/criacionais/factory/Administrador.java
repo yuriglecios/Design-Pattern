@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class Administrador implements IUsuario{
     @Override
     public void salvar() {
-
+        System.out.println("Salvando administrador");
     }
 }

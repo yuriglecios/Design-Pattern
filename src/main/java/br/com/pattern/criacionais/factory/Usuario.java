@@ -6,6 +6,6 @@ import org.springframework.stereotype.Component;
 public class Usuario implements IUsuario{
     @Override
     public void salvar() {
-
+        System.out.println("Salvando usuario");
     }
 }
